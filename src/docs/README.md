@@ -1,64 +1,67 @@
-# Student Information System Documentation
+# Student Information System
 
 ## Project Overview
-This project is a Java-based Student Information System that stores and manages student records.
 
-## Objectives
-- Store student details
-- Display student information
-- Validate user input
-- Practice Java OOP concepts
+This is a Java-based Student Information System that stores and manages student records using ArrayList. The application provides a menu-driven interface for adding, viewing, searching, updating, and deleting student information.
 
 ## Features
-- Add Student
-- View Student Records
-- Search Student
+
+- Add Student Records
+- View All Students
+- Search Student by ID or Name
 - Update Student Details
-- Menu Driven Interface
-- Data Validation
+- Delete Student Records
+- Input Validation for Age and Grade
+- Menu-Driven Interface
+- Data Storage Using ArrayList
 
 ## Technologies Used
+
 - Java
-- Scanner Class
 - ArrayList
+- Scanner Class
+- Object-Oriented Programming (OOP)
 
-## Setup Instructions
-1. Install JDK
-2. Open any Java IDE
-3. Compile the source code
-4. Run the program
-5. Follow the menu options
+## Project Structure
 
-## Code Structure
-- Student Class
-- Main Class
-- ArrayList for storage
-- Scanner for user input
+```
+StudentInformationSystem
+│
+├── README.md
+├── src/
+│   └── Main.java
+│
+├── docs/
+│   └── README.md
+│
+└── test_data/
+    └── sample_data.txt
+```
 
-## Technical Requirements
-✓ Student class with attributes
+## How to Run
 
-✓ Age validation
+1. Open the project in IntelliJ IDEA or any Java IDE.
+2. Compile the program.
+3. Run `Main.java`.
+4. Choose options from the menu.
 
-✓ Grade validation
+## Sample Menu
 
-✓ Menu-driven interface
+```
+===== STUDENT INFORMATION SYSTEM =====
+1. Add Student
+2. View Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Exit
+```
 
-✓ Search functionality
+## Data Validation
 
-✓ Formatted output
-
-✓ Error handling
-
-✓ Data storage using ArrayList
-
-## Sample Output
-
-Student ID: S001
-Name: John Doe
-Age: 20
-Grade: 85.5
-Contact: john@email.com
+- Age must be greater than 0.
+- Grade must be between 0 and 100.
 
 ## Author
-Charan Nikhil Tej
+
+Charan Nikhil Tej Myla
